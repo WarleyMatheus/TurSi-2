@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Suporte</title>
+    <style>
+        h1{
+            color: #C7C7A6;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nmenu">
+        <ul class="menu">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="turismo.html">Turismo</a></li>
+            <li class="topic">Empresas
+                <ul>
+                    <li><a href="melhoresempresas.html">Melhores empresas</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                </ul>
+            </li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Suporte</h1>
+        <form>
+            <div class="duv">
+                <fieldset>
+                    <legend>Envie aqui suas reclamações e dúvidas sobre o site:</legend>
+                    <label for="idOp">Digite a dúvida/reclamação</label><br><textarea type="text" cols="75" rows="6"
+                        placeholder="Digite aqui" name="nRank" id="idOp"></textarea><br>
+                </fieldset>
+            </div>
+            <div class="cad"></div>
+            <fieldset>
+                <legend>Crie uma conta para começar a viajar!</legend>
+                <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="45"
+                        placeholder="Nome Sobrenome"></p>
+                <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail"
+                        placeholder="exemplo01@gmail.com"></p>
+                <p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha"></p>
+            </fieldset>
+            </div>
+            <div class="agend">
+                <fieldset>
+                    <legend>Agende uma viajem:</legend>
+                    <p><label for="idDat">Data:</label><input type="date" name="nDadt" id="idDat"></p>
+                    <label for="idTip">Qual Agencia?</label><br>
+                    <select name="nOpt" id="idTip">
+                        <option value="cvc">CVC</option>
+                        <option value="decolar">Decolar</option>
+                        <option value="fly">Flytour</option>
+                        <option value="urbano">Hotel Urbano</option>
+                        <option value="sub">submarino</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </fieldset>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Avaliações</title>
+</head>
+<body>
+    <nav class="nmenu">
+        <ul class="menu">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="turismo.html">Turismo</a></li>
+            <li class="topic">Empresas
+                <ul>
+                    <li><a href="melhoresempresas.html">Melhores empresas</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                </ul>
+            </li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Avalie as empresas!</h1>
+        <form>
+        <div class="voce">
+            <fieldset>
+                <legend>Diga você</legend>
+                <label for="idOp">Você já utilizou algum desses serviços de turismo?</label><br><input type="radio" name="serv" id="idOp"><label
+                    for="idSim">Sim</label>
+                <input type="radio" name="serv" id="idOp"><label for="idNao">Não</label>
+                <br>
+                <br>
+                <label for="idTip">Se sim, qual?</label><br>
+                <select name="nOpt" id="idTip">
+                    <option value="cvc">CVC</option>
+                    <option value="decolar">Decolar</option>
+                    <option value="fly">Flytour</option>
+                    <option value="urbano">Hotel Urbano</option>
+                    <option value="sub">submarino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <br>
+                <br>
+                <label for="idNum">O quão satisfeito você ficou com o serviço?</label><br><input type="number"
+                    name="nNumero" id="idNum" min="0" max="10">
+                <br>
+                <br>
+            </fieldset>
+        </div>
+    </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Turismo</title>
+</head>
+
+<body>
+    <nav class="nmenu">
+        <ul class="menu">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="turismo.html">Turismo</a></li>
+            <li class="topic">Empresas
+                <ul>
+                    <li><a href="melhoresempresas.html">Melhores empresas</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                </ul>
+            </li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Turismo</h1>
+        <p>Musiquinha</p>
+        <div class="audio">
+            <audio controls preload="metadata" loop>
+                <source src="midia/musica-de-espera.mp3" type="audio/mpeg">
+                <source src="midia/musica-de-espera.ogg" type="audio/ogg">
+                <source src="midia/musica-de-espera.wav" type="audio/wav">
+            </audio>
+        </div>
+        <h2>O que é turismo?</h2>
+        <p>Turismo consiste nas viagens e atividades que as pessoas realizam em seus locais de destino. O crescimento
+            econômico do setor foi duramente impactado pela pandemia em 2020. Aos deslocamentos voluntários de pessoas e
+            às atividades que elas desempenham nas localidades de destino se dá o nome de turismo.</p>
+        <h2>Saiba mais</h2>
+        <div>
+            <video controls width="550">
+                <source class="sVideo" src="midia/agencia.mp4" type="video/mp4">
+                <source class="sVideo" src="midia/agencia.m4v" type="video/m4v">
+                <source class="sVideo" src="midia/agencia.webm" type="video/webm">
+                <source class="sVideo" src="midia/agencia.ogv" type="video/ogv">
+            </video>
+        </div>
+        <h2>Melhores pontos turisticos do Brasil</h2>
+        <div class="list">
+            <ul>
+                <li type="disk">Rio de Janeiro</li>
+                <div class="sublist">
+                    <ol type="I">
+                        <li>Cristo redentor</li>
+                        <li>Museu do amanhã</li>
+                    </ol>
+                </div>
+                <li type="disk">São Paulo</li>
+                <div class="sublist">
+                    <ol type="I">
+                        <li>Parque Ibirapuera</li>
+                        <li>Catedral Metropolitana de São Paulo</li>
+                    </ol>
+                </div>
+                <li type="disk">Minas Gerais</li>
+                <div class="sublist">
+                    <ol type="I">
+                        <li>Instituto Inhotim</li>
+                        <li>Capitólio</li>
+                    </ol>
+                </div>
+                <li type="disk">Curitiba</li>
+                <div class="sublist">
+                    <ol type="I">
+                        <li>Museu Oscar Niemeyer</li>
+                        <li>Parque Barigui</li>
+                    </ol>
+                </div>
+            </ul>
+        </div>
+        <p>Download da música</p>
+        <picture class="pImgs">
+            <source class="sImg" media="(max-width: 750PX)" srcset="imagens/download-p.png">
+            <source class="sImg" media="(max-width: 1050PX)" srcset="imagens/download-m.png">
+            <a href="midia/musica-de-espera.zip" download="musiquinha" type="application/zip"><img class="imgs"
+                    src="imagens/download-g.png" alt="icone downaload"></a>
+        </picture>
+    </main>
+</body>
+
+</html>

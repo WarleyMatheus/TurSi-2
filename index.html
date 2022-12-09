@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WarleyTur</title>
+</head>
+
+<body>
+    <script>
+        function permitido() {
+            var confirma = window.confirm("Você deseja viajar?");
+            if(confirma) {
+                window.alert("Agradeçemos a preferência!")
+            }
+            else {
+                window.alert("Então veio fazer o que aqui?");
+                window.location.href="https://www.google.com";
+            }
+        }
+        permitido();
+    </script>
+    <nav class="nmenu">
+        <ul class="menu">
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="turismo.html">Turismo</a></li>
+            <li class="topic">Empresas
+                <ul>
+                    <li><a href="melhoresempresas.html">Melhores empresas</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                </ul>
+            </li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>
+            WarleyTur
+        </h1>
+        <h2>Te levando tão longe quanto seus sonhos! </h2>
+
+        <br>
+
+        <p>
+            Bem vindo a WarleyTur! Empresa de confiança focada em estruturar para você as férias que você merece!
+        </p>
+
+        <br>
+
+        <p>
+            Nossa empresa trabalha forneçendo a você oportunidades incríveis de aproveitar o que há de melhor na vida. Por isso, a WarleuTur reuniu em um único site tudo aquilo necessário para que você e sua família possam fortalecer laços com as melhores lembranças!
+        </p>
+        <picture class="pImg">
+            <source class="sImg" media="(max-width: 750px)" srcset="imagens/aviao-p.jpg">
+            <source class="sImg" media="(min-width: 1050px)" srcset="imagens/aviao-m.jpg">
+            <img class="imgs" src="imagens/aviao-g.jpg" alt="avião">
+        </picture>
+        
+    </main>
+</body>
+</html>
